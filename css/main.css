@@ -1,5 +1,11 @@
+body {
+  color: white;
+  font-family: Roboto;
+}
+
 #hero,
-#hero-two {
+#hero-two,
+#relax {
   background-color: #F78E69;
 }
 
@@ -33,4 +39,24 @@
 
 #pictures > div {
   text-align: center;
+}
+
+#pictures > div > div >img {
+  border: 10px solid white;
+  margin: 2%;
+}
+
+#relax > div > div {
+  background-image: url("../assets/images/tres.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+}
+
+#relax > p {
+  text-align:
+}
+
+.align-right {
+  text-align: right;
 }
